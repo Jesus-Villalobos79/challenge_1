@@ -1,0 +1,111 @@
+*{
+    font-family: 'Kanit';
+    font-size: large;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    padding: 20px 0px;
+    background-color: lavender;
+    
+}
+
+.logo img{
+    width: 120px;
+    height: 48px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.ingresarTxt{
+    width: 60%;
+}
+
+.mostrarTxt{
+    width: 40;
+}
+
+.texto{
+    text-transform: lowercase;
+    border: none;
+    color: navy;
+}
+
+::placeholder{
+    color: navy;}
+    .texto:focus{
+    outline: none;
+}
+
+.msjEncriptado{
+    background-color: white;
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: navy;
+    position: fixed;
+}
+
+.msjEncriptado:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 20px;
+}
+
+.encriptar{
+    background-color: lightslategray;
+    border: 1px solid lightslategray;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+}
+
+.desencriptar{
+    background-color: lavender;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    color: navy;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.copiar{
+    background-color: lavender;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    color: navy;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 325px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: lavender;
+}
